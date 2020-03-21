@@ -31,7 +31,7 @@ for z in range(50000):
     res_dict = dict()
     start_point = 2600
     cum_sum_weight = 0
-    dict_ = dict(zip(list(range(1200, 2500, 100)), list(np.random.dirichlet(np.ones(13),size=1)[0])))    
+    dict_ = dict(zip(list(range(1200, 2600, 200)), list(np.random.dirichlet(np.ones(7),size=1)[0])))    
     for down_point in range(2400, 1400, -50):
         if down_point == 1450:
     #         print(res_dict)
