@@ -54,5 +54,5 @@ for z in range(50000):
     res_list.append((cash, equity, dict_, bot))
 
 back_to_point=2400
-pain_factor = 0.05
+pain_factor = 0.1
 sorted([(i[0] + i[1]*back_to_point + pain_factor*i[3], i[3], i[2]) for i in res_list], reverse = True)[0:3]
